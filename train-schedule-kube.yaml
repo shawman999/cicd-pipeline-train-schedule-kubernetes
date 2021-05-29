@@ -42,7 +42,7 @@ Click Jenkinsfile to configure this file. Click the Edit icon in the top-right o
 
 At the top of this file, be sure to change the following line to use your Docker Hub username instead of the instructor's:
 
-DOCKER_IMAGE_NAME = "willbla/train-schedule"
+DOCKER_IMAGE_NAME = "shawman999/train-schedule"
 
 At the bottom of this file, replace the DeployToProduction section with the following:
 
