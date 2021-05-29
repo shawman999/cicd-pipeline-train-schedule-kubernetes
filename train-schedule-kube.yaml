@@ -1,3 +1,6 @@
+
+DOCKER_IMAGE_NAME = "shawman999/train-schedule"
+
 kind: Service
 apiVersion: v1
 metadata:
@@ -12,6 +15,8 @@ spec:
     nodePort: 8080
 
 ---
+
+DOCKER_IMAGE_NAME = "shawman999/train-schedule"
 
 apiVersion: apps/v1
 kind: Deployment
